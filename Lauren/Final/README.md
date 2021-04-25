@@ -13,4 +13,4 @@ We’ve sourced most of our data from the Center for Disease Control (CDC) and t
 - https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/w9zu-fywh 
 
 ## Database
-I'll be using Pandas to clean up my raw data. Then, I'll import the data into pgAdmin and use SQL to merge the datasets together into the ones I ultimately use for analysis. I'll use a connection string to connect the data to the files where I conduct my analysis.
+I'll be using Pandas to clean up my raw data. Then, I'll import the data into pgAdmin and use SQL to merge the datasets together into the ones I ultimately use for analysis. The SQL file currently in my folder contains the psedo code to generate the final database. I'll use a connection string to connect the data to the files where I conduct my analysis.
