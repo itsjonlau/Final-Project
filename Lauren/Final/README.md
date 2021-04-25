@@ -2,7 +2,7 @@
 ## Selected Topic
 Our selected topic is healthcare, specifically the rollout of the COVID-19 vaccine. We’re looking to research how the rollout of the vaccines has impacted death rates as a result of COVID-19. We’ve selected this question because of its relevance and because we’re all interested in health data.
 
-My specific question is: Do COVID-19 deaths slow at a different rate for minorities? Do answer this question, I will put together various charts, such as a bar chart and linear regression, and will also conduct multiple regression analysis.
+My specific question is: Do COVID-19 deaths slow at a different rate for minorities? 
 
 
 ## Data Source
@@ -14,3 +14,6 @@ We’ve sourced most of our data from the Center for Disease Control (CDC) and t
 
 ## Database
 I'll be using Pandas to clean up my raw data. Then, I'll import the data into pgAdmin and use SQL to merge the datasets together into the ones I ultimately use for analysis. The SQL file currently in my folder contains the psedo code to generate the final database. I'll use a connection string to connect the data to the files where I conduct my analysis.
+
+## Analysis
+To answer my question, I will put together various charts, such as a bar chart and linear regression, and will also conduct multiple regression analysis.
