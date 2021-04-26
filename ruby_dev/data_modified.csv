@@ -1,4 +1,4 @@
-,Year,Month,State,Sex,Age_Group,Covid_Deaths,Total_Deaths,Pneumonia_Deaths,Pneumonia_Covid_Deaths,Influenza_Deaths,Pneumonia_Influenza_Covid_Deaths
+Record_ID,Record_Year,Record_Month,Record_State,Sex,Age_Group,Covid_Deaths,Total_Deaths,Pneumonia_Deaths,Pneumonia_Covid_Deaths,Influenza_Deaths,Pneumonia_Influenza_Covid_Deaths
 9096,2020.0,1.0,Alabama,Male,Under 1 year,0.0,17.0,0.0,0.0,0.0,0.0
 9097,2020.0,1.0,Alabama,Male,0-17 years,0.0,44.0,0.0,0.0,,
 9098,2020.0,1.0,Alabama,Male,1-4 years,0.0,,0.0,0.0,0.0,0.0
