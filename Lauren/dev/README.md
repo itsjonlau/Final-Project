@@ -14,3 +14,6 @@ We’ve sourced most of our data from the Center for Disease Control (CDC) and t
 
 ## Database
 I'll be using Pandas to clean up my raw data. Then, I'll import the data into pgAdmin and use SQL to merge the datasets together into the ones I ultimately use for analysis. I'll use a connection string to connect the data to the files where I conduct my analysis.
+
+## Dashboard
+A draft of my dashboard can be found here: https://public.tableau.com/profile/lauren.sullivan#!/vizhome/FinalProject_16195477649550/HHS1
