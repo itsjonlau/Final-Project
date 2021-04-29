@@ -1,7 +1,7 @@
 -- Creating two tables for final project, bringing in clean data from "cleaning data" file
 CREATE TABLE weekly_deaths (
 	Week DATE NOT NULL,
-	Race VARCHAR NOT NULL,
+	Race VARCHAR(255) NOT NULL,
 	COVID_Deaths INT NOT NULL
 );
 
