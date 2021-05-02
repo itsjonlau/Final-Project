@@ -26,5 +26,7 @@ The main way our team communicates is via Slack and commenting back and forth wi
 ## Dashboard
 We'll be using Tableau for our dashboard. One interactive element we will have is allowing the user to filter the graph by race.
 
+## Presentation
+Our drafted presentation is saved here: https://docs.google.com/presentation/d/1Uh0eGmHWaZJEmzmTupg6igN1HYlpcqkoJwL8xIzXYlY/edit#slide=id.gcd6a21c5ca_0_65
 
 
