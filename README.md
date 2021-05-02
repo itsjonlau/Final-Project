@@ -24,7 +24,7 @@ Each team member has a more specific question that they will answer, listed belo
 The main way our team communicates is via Slack and commenting back and forth within our Google document. We also have a video meeting each week to discuss progress and outline next steps.
 
 ## Dashboard
-A draft of my dashboard is saved here: https://public.tableau.com/profile/lauren.sullivan#!/vizhome/FinalProject_16195477649550/HHS1 
+We'll be using Tableau for our dashboard. One interactive element we will have is allowing the user to filter the graph by race.
 
 
 
