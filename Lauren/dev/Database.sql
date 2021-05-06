@@ -21,3 +21,10 @@ FROM weekly_deaths as w
 INNER JOIN vaccine_distro as v
 ON (w.Week=v.Week)
 ORDER BY w.Week;
+
+--create another table with all total deaths by race and week
+SELECT SUM(covid_deaths), race, week
+INTO deaths_totals
+FROM deaths
+GROUP BY race, week
+ORDER BY week
