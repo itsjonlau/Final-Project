@@ -28,3 +28,10 @@ INTO deaths_totals
 FROM deaths
 GROUP BY race, week
 ORDER BY week
+
+--create a table with total deaths by week
+SELECT SUM(covid_deaths), week
+INTO deaths_by_week
+FROM deaths
+GROUP BY week
+ORDER BY week
