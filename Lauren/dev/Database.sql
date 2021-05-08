@@ -1,9 +1,11 @@
--- Creating two tables for final project, bringing in clean data from "cleaning data" file
 CREATE TABLE deaths (
 	Week DATE NOT NULL,
-	HHS_Region VARCHAR(2) NOT NULL,
-	Race VARCHAR(255) NOT NULL,
-	COVID_Deaths INT NOT NULL
+	AI_AN_NH FLOAT NOT NULL,
+	Asian_PI_NH FLOAT NOT NULL,
+	Black_NH FLOAT NOT NULL,
+	Hispanic FLOAT NOT NULL,
+	White_NH FLOAT NOT NULL,
+	Total FLOAT NOT NULL
 );
 
 CREATE TABLE vaccine_distro (
@@ -12,26 +14,16 @@ CREATE TABLE vaccine_distro (
 );
 
 --merge the tables together into the dataset needed for my analysis
-SELECT w.Week,
-	w.Race,
-	w.COVID_Deaths,
+SELECT d.Week,
+	d.AI_AN_NH,
+	d.Asian_PI_NH,
+	d.Black_NH,
+	d.Hispanic,
+	d.White_NH,
+	d.Total,
 	v.Vaccinations
 INTO Total_Data
-FROM weekly_deaths as w
+FROM deaths as d
 INNER JOIN vaccine_distro as v
-ON (w.Week=v.Week)
-ORDER BY w.Week;
-
---create another table with all total deaths by race and week
-SELECT SUM(covid_deaths), race, week
-INTO deaths_totals
-FROM deaths
-GROUP BY race, week
-ORDER BY week
-
---create a table with total deaths by week
-SELECT SUM(covid_deaths), week
-INTO deaths_by_week
-FROM deaths
-GROUP BY week
-ORDER BY week
+ON (d.Week=v.Week)
+ORDER BY d.Week;
