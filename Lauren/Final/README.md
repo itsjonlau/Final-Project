@@ -4,6 +4,8 @@ Our selected topic is healthcare, specifically the rollout of the COVID-19 vacci
 
 My specific question is: Do COVID-19 deaths slow at a different rate for minorities? 
 
+## Presentation
+A draft of our final presentation is saved here: https://docs.google.com/presentation/d/1Uh0eGmHWaZJEmzmTupg6igN1HYlpcqkoJwL8xIzXYlY/edit#slide=id.gd721e613a5_0_13
 
 ## Data Source
 We’ve sourced most of our data from the Center for Disease Control (CDC) and the US Government. See links below for the data I personally plan to use:
