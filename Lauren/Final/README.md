@@ -13,7 +13,7 @@ We’ve sourced most of our data from the Center for Disease Control (CDC) and t
 - https://data.cdc.gov/Vaccinations/COVID-19-Vaccine-Distribution-Allocations-by-Juris/w9zu-fywh 
 
 ## Database
-I'll be using Pandas to clean up my raw data. Then, I'll import the data into pgAdmin and use SQL to merge the datasets together into the ones I ultimately use for analysis. The SQL file currently in my folder contains the psedo code to generate the final database. I'll use a connection string to connect the data to the files where I conduct my analysis.
+I used Pandas to clean up my raw data. Then, imported the data into pgAdmin and used SQL to merge the datasets together into the ones I ultimately use for analysis.Then I  exported that file for use in visualizations in Tableau.
 
 ## Analysis
-To answer my question, I will put together various charts, such as a bar chart and linear regression, and will also conduct multiple regression analysis.
+To answer my question, I put together various charts, such as a bar chart and linear regression, and also conducted multiple regression analysis.
