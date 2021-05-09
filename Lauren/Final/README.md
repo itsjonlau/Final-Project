@@ -16,4 +16,4 @@ We’ve sourced most of our data from the Center for Disease Control (CDC) and t
 I used Pandas to clean up my raw data. Then, imported the data into pgAdmin and used SQL to merge the datasets together into the ones I ultimately use for analysis.Then I  exported that file for use in visualizations in Tableau.
 
 ## Analysis
-To answer my question, I put together various charts, such as a bar chart and linear regression, and also conducted multiple regression analysis.
+To answer my question, I put together various charts, such as a bar chart and scatter plot, and also conducted multiple regression analysis.
