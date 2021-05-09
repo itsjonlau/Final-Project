@@ -1,30 +1,29 @@
--- Creating two tables for final project, bringing in clean data from "cleaning data" file
-CREATE TABLE weekly_deaths (
-	Week as DATE,
-	HHS_Region as VARCHAR NOT NULL,
-	Race as VARCHAR NOT NULL,
-	COVID_Deaths as INT
+CREATE TABLE deaths (
+	Week DATE NOT NULL,
+	AI_AN_NH FLOAT NOT NULL,
+	Asian_PI_NH FLOAT NOT NULL,
+	Black_NH FLOAT NOT NULL,
+	Hispanic FLOAT NOT NULL,
+	White_NH FLOAT NOT NULL,
+	Total FLOAT NOT NULL
 );
 
 CREATE TABLE vaccine_distro (
-	Week as DATE,
-	HHS_Region as VARCHAR NOT NULL,
-	First_Dose_Allocations as INT,
-	Second_Dose_Allocations as INT
+	Week DATE NOT NULL,
+	Vaccinations FLOAT NOT NULL
 );
 
---merge the tables together into the datasets needed for my analysis
--- first table is data for HHS1 only
-SELECT w.Week,
-	w.Race
-	w.COVID_Deaths,
-	v.First_Dose_Allocations,
-	v.Second_Dose_Allocations
-INTO HHS1
-FROM weekly_deaths as w
+--merge the tables together into the dataset needed for my analysis
+SELECT d.Week,
+	d.AI_AN_NH,
+	d.Asian_PI_NH,
+	d.Black_NH,
+	d.Hispanic,
+	d.White_NH,
+	d.Total,
+	v.Vaccinations
+INTO Total_Data
+FROM deaths as d
 INNER JOIN vaccine_distro as v
-ON (w.Week=v.Week)
-WHERE (v.HHS_Region IS 1)
-ORDER BY w.Week;
-
---will create tables for other analysis as needed
+ON (d.Week=v.Week)
+ORDER BY d.Week;
