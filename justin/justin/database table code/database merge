@@ -1,0 +1,26 @@
+Create table sql_query
+as (
+Select pl.state,
+	pl.mask_willingness,
+	pl.vaccine_unwilling,
+	pl.supply_percent_used,
+	pl.population,
+	pl.election_result,
+	j.jjvaccinations,
+	md.mdvaccinations,
+	pf.pfvaccinations,
+	po.postvax_deaths,
+	pr.prevax_deaths
+from polldata pl
+left join JJvax j
+on pl.state = j.State
+left join modernavax md
+on pl.state = md.State
+left join pfizervax pf
+on pl.state = pf.State
+left join postvax po
+on pl.state = po.states
+left join prevax pr
+on pl.state = pr.states
+);
+
