@@ -1,52 +1,52 @@
-,State,Vaccinations
-0,Alabama,179400
-1,Alaska,39900
-2,Arizona,253900
-3,Arkansas,109000
-4,California,1428400
-5,Colorado,203400
-6,Connecticut,134800
-7,Delaware,35700
-8,Florida,781500
-9,Georgia,370900
-10,Hawaii,53500
-11,Idaho,59900
-12,Illinois,471000
-13,Indiana,241000
-14,Iowa,114700
-15,Kansas,104700
-16,Kentucky,163400
-17,Louisiana,169000
-18,Maine,51600
-19,Maryland,221700
-20,Massachusetts,259300
-21,Michigan,369100
-22,Minnesota,202000
-23,Mississippi,108200
-24,Missouri,223700
-25,Montana,39000
-26,Nebraska,69300
-27,Nevada,107200
-28,New Hampshire,51700
-29,New Jersey,328700
-30,New Mexico,77000
-31,New York,735700
-32,North Carolina,373700
-33,North Dakota,28500
-34,Ohio,428800
-35,Oklahoma,141000
-36,Oregon,153700
-37,Pennsylvania,422200
-38,Philadelphia,58600
-39,Rhode Island,40800
-40,South Carolina,183600
-41,South Dakota,31500
-42,Tennessee,245000
-43,Texas,978300
-44,Utah,102100
-45,Vermont,24500
-46,Virginia,311400
-47,Washington,272000
-48,West Virginia,69600
-49,Wisconsin,214700
-50,Wyoming,21400
+State,Vaccinations
+Alabama,179400
+Alaska,39900
+Arizona,253900
+Arkansas,109000
+California,1428400
+Colorado,203400
+Connecticut,134800
+Delaware,35700
+Florida,781500
+Georgia,370900
+Hawaii,53500
+Idaho,59900
+Illinois,471000
+Indiana,241000
+Iowa,114700
+Kansas,104700
+Kentucky,163400
+Louisiana,169000
+Maine,51600
+Maryland,221700
+Massachusetts,259300
+Michigan,369100
+Minnesota,202000
+Mississippi,108200
+Missouri,223700
+Montana,39000
+Nebraska,69300
+Nevada,107200
+New Hampshire,51700
+New Jersey,328700
+New Mexico,77000
+New York,735700
+North Carolina,373700
+North Dakota,28500
+Ohio,428800
+Oklahoma,141000
+Oregon,153700
+Pennsylvania,422200
+Philadelphia,58600
+Rhode Island,40800
+South Carolina,183600
+South Dakota,31500
+Tennessee,245000
+Texas,978300
+Utah,102100
+Vermont,24500
+Virginia,311400
+Washington,272000
+West Virginia,69600
+Wisconsin,214700
+Wyoming,21400
