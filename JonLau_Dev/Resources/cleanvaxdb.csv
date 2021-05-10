@@ -1,0 +1,12 @@
+--Create a new table for weekly data
+Create Table Updated_Data_Week(
+	End_Week Date Not Null,
+	Age_Group VARCHAR,
+	CVD_Deaths INT
+);
+
+Create Table Vax_dist()
+	 Week_of_Allocations DATE NOT NULL, 
+	Vaccines dist Int NOT NULL
+);
+
