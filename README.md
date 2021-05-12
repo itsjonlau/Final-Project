@@ -23,6 +23,9 @@ Each team member has a more specific question that they will answer, listed belo
 ## Communication Protocols
 The main way our team communicates is via Slack and commenting back and forth within our Google document. We also have a video meeting each week to discuss progress and outline next steps.
 
+## Machine Learning
+
+
 ## Dashboard
 We'll be using Tableau for our dashboard. Each team member will create a visualization to accompany their question. One interactive element we will have is allowing the user to filter the graph by race.
 
