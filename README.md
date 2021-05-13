@@ -38,7 +38,7 @@ The main way our team communicates is via Slack and commenting back and forth wi
 ## Key Learnings
 
 ## Dashboard
-The GitHub pages for our Dashboard is saved here:
+The GitHub pages for our Dashboard is saved here: https://itsjonlau.github.io/Final-Project/
 
 ## Presentation
 Our presentation is saved here: https://docs.google.com/presentation/d/1Uh0eGmHWaZJEmzmTupg6igN1HYlpcqkoJwL8xIzXYlY/edit#slide=id.gcd6a21c5ca_0_65 and a PDF is saved within this repository.
