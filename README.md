@@ -19,21 +19,29 @@ Each team member has a more specific question that they will answer, listed belo
 - Do COVID-19 deaths slow at a different rate depending on gender?
 - Based on vaccination and infection rates, can you accurately predict if a state voted for Trump or for Biden?
 
-## Data Exploration
-- Used Pandas to clean and reformatted the code to fit our needs. For example, one important item was combining the different vaccination datasets from each pharmaceutical company into just one dataset. 
+## Data Exploration and Analysis
+### Data Exploration
+- We used Pandas to clean and reformatted the code to fit our needs. One important item was combining the different vaccination datasets from each pharmaceutical company into just one dataset. Many of the datasets had extraneous data that we could drop as it wasn't relevant to our specific questions. Many of us also had to re-categorize the data tot ensure it was more clear visually.
 - Where applicable, we joined separate datasets into one database using SQL.
+
+### Data Analysis
+Each of us conducted analysis to answer our own question. For the ones related to death rates, it made the most sense to use a line graph, as we wanted to show how the data changed over time. To answer other questions, it made the most sense to use machine learning models like regression.
 
 ## Tools
 Throughout the project, we used a variety of technologies, languages and tools, including:
--GitHub
--PostgreSQL
--Python
-
+- GitHub
+- PostgreSQL
+- Python
+- Pandas 
+- Jupyter Notebook
 
 ## Communication Protocols
 The main way our team communicates is via Slack and commenting back and forth within our Google document. We also have a video meeting each week to discuss progress and outline next steps.
 
 ## Machine Learning
+
+## Result
+Overall, there does appear to be a significant decline in COVID-19 deaths once the vaccine is introduced. This decline is present in general, as well as within all races and all age groups.
 
 ## Key Learnings
 
