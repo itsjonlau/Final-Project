@@ -6,6 +6,9 @@ let viz2;
 //Add Share Link to Tableau Public in here
 const url = "https://public.tableau.com/views/DashboardImages/TotalDeathsandVaccinations?:language=en&:display_count=y&:origin=viz_share_link";
 const url2 = "https://public.tableau.com/views/DashboardImages/NormalizedDeathbyRace?:language=en&:display_count=y&:origin=viz_share_link";
+//const url3 = "JONATHAN TO ADD"
+//const url4 = "RUBY TO ADD"
+//const url5 = "JUSTIN TO ADD"
 
 const vizContainer = document.getElementById('vizContainer');
 const options = {
