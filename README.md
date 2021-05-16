@@ -44,6 +44,7 @@ The main way our team communicates is via Slack and commenting back and forth wi
 Overall, there does appear to be a significant decline in COVID-19 deaths once the vaccine is introduced. This decline is present in general, as well as within all races and all age groups.
 
 ## Key Learnings
+- Try to find data that is already normalized (versus counts) as that is what is ultimately more important, easier to pull insights from and tells a more clear story.
 
 ## Dashboard
 The GitHub pages for our Dashboard is saved here: https://itsjonlau.github.io/Final-Project/
