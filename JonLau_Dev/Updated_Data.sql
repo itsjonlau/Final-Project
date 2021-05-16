@@ -1,13 +1,27 @@
---Create a new table for weekly data
-Create Table Updated_Data_Week(
-	Week_Ending Date Not Null,
-	Age_Group VARCHAR,
-	COVID_Deaths INT
+-- Table: public.Updated_Data_Week
+
+-- DROP TABLE public."Updated_Data_Week";
+
+CREATE TABLE public."Updated_Data_Week"
+(
+    week_ending date NOT NULL,
+    age_group character varying COLLATE pg_catalog."default",
+    covid_deaths integer
 );
 
---Create a new table for monthly data
-Create Table Updated_Data(
-	Monthly Date Not null
-	age_group Varchar(0)
-	COVID_Deaths INT
+
+ALTER TABLE public."Updated_Data_Week"
+    OWNER to postgres;
+
+-- Table: public.CleanVaxdb
+
+-- DROP TABLE public."CleanVaxdb";
+
+CREATE TABLE public."CleanVaxdb"
+(
+    "Week of Dist" date NOT NULL,
+    "Vax Dist" bigint NOT NULL
 );
+
+ALTER TABLE public."CleanVaxdb"
+    OWNER to postgres;
