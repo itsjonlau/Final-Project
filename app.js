@@ -8,7 +8,8 @@ const url = "https://public.tableau.com/views/DashboardImages/TotalDeathsandVacc
 const url2 = "https://public.tableau.com/views/DashboardImages/NormalizedDeathbyRace?:language=en&:display_count=y&:origin=viz_share_link";
 //const url3 = "JONATHAN TO ADD"
 //const url4 = "RUBY TO ADD"
-//const url5 = "JUSTIN TO ADD"
+const url5 = "JUSTIN TO ADD"
+const url6 = "JUSTIN TO ADD"
 
 const vizContainer = document.getElementById('vizContainer');
 const options = {
@@ -27,6 +28,9 @@ function initViz() {
     console.log('Executing the initViz function!');
     viz = new tableau.Viz(vizContainer, url, options);
     viz2 = new tableau.Viz(vizContainer2, url2, options);
+    viz3 = new tableau.Viz(vizContainer3, ur13, options);
+    viz4 = new tableau.Viz(vizContainer4, url4, options);
+    viz5 = new tableau.Viz(vizContainer5, url5, options);
 }
 
 // run the initViz function when the page loads
