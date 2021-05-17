@@ -21,7 +21,7 @@ Each team member has a more specific question that they will answer, listed belo
 
 ## Data Exploration and Analysis
 ### Data Exploration
-- We used Pandas to clean and reformatted the code to fit our needs. One important item was combining the different vaccination datasets from each pharmaceutical company into just one dataset. Many of the datasets had extraneous data that we could drop as it wasn't relevant to our specific questions. Many of us also had to re-categorize the data tot ensure it was more clear visually.
+- We used Pandas to clean and reformatted the code to fit our needs. One important item was combining the different vaccination datasets from each pharmaceutical company into just one dataset. Many of the datasets had extraneous data that we could drop as it wasn't relevant to our specific questions. Many of us also had to re-categorize the data to ensure it was more clear visually.
 - Where applicable, we joined separate datasets into one database using SQL.
 
 ### Data Analysis
@@ -35,8 +35,6 @@ Throughout the project, we used a variety of technologies, languages and tools, 
 - Pandas 
 - Jupyter Notebook
 
-## Communication Protocols
-The main way our team communicates is via Slack and commenting back and forth within our Google document. We also have a video meeting each week to discuss progress and outline next steps.
 
 ## Machine Learning
 For our first machine learning model, which we created to determine vaccine allocations, we chose data that was publicly available and showed COVID-19 death by week and by sex, age and state. There were no missing values from the data, though there were some cases where the data was a 0, which we left in as it represented 0 deaths that week. We created dummy variables for gender, state and age range to ensure that there was a numeric variable for these that the model would understand.
