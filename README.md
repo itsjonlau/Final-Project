@@ -39,6 +39,13 @@ Throughout the project, we used a variety of technologies, languages and tools, 
 The main way our team communicates is via Slack and commenting back and forth within our Google document. We also have a video meeting each week to discuss progress and outline next steps.
 
 ## Machine Learning
+For our first machine learning model, which we created to determine vaccine allocations, we chose data that was publicly available and showed COVID-19 death by week and by sex, age and state. There were no missing values from the data, though there were some cases where the data was a 0, which we left in as it respresented 0 deaths that week. We created dummy variable for gender, state and age range to ensure that there was a numeric variable that the model would understand.
+
+- We used unsupervised machine learning because other models, such as regression, were not a fit to answer out question. Unfortunately it is difficult to predict the outcome of death just based on gender, location, and age alone. Because we're missing some required data, unsupervised machine learning will help visualize how the data can be grouped together and collect it into different pockets, to help determine what groups would ideally get vaccinated first.
+- Ater running a k-means clustering model, we determined that the best number of groups to use was 4. After visualizing those clusters, we could determine which groups need to recieve vaccinations first.
+
+
+JUSTIN TO ADD IN FOR SECOND MACHINE LEARNING MODEL
 
 ## Result
 Overall, there does appear to be a significant decline in COVID-19 deaths once the vaccine is introduced. This decline is present in general, as well as within all races and all age groups.
