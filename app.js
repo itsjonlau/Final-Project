@@ -7,9 +7,11 @@ let viz2;
 const url = "https://public.tableau.com/views/DashboardImages/TotalDeathsandVaccinations?:language=en&:display_count=y&:origin=viz_share_link";
 const url2 = "https://public.tableau.com/views/DashboardImages/NormalizedDeathbyRace?:language=en&:display_count=y&:origin=viz_share_link";
 //const url3 = "JONATHAN TO ADD"
-//const url4 = "RUBY TO ADD"
-const url5 = "JUSTIN TO ADD"
-const url6 = "JUSTIN TO ADD"
+const url4 = "https://public.tableau.com/views/CovidDeathCountbyStates/CovidDeathRatebyStates?:language=en&:display_count=y&:origin=viz_share_link";
+const url5 = "https://public.tableau.com/views/CovidDeathCountbyGender/DeathCountbyGender?:language=en&:display_count=y&:origin=viz_share_link";
+const url6 = "https://public.tableau.com/views/covidpolitics/Dashboard1?:language=en&:display_count=y&:origin=viz_share_link";
+const url7 = "https://public.tableau.com/views/covidpolitics/Dashboard2?:language=en&:display_count=y&:origin=viz_share_link";
+const url8 = "https://public.tableau.com/views/covidpolitics/ofPopulationWhoDiedofCovid?:language=en&:display_count=y&:origin=viz_share_link";
 
 const vizContainer = document.getElementById('vizContainer');
 const options = {
@@ -31,6 +33,9 @@ function initViz() {
     viz3 = new tableau.Viz(vizContainer3, ur13, options);
     viz4 = new tableau.Viz(vizContainer4, url4, options);
     viz5 = new tableau.Viz(vizContainer5, url5, options);
+    viz6 = new tableau.Viz(vizContainer6, url6, options);
+    viz7 = new tableau.Viz(vizContainer7, url7, options);
+    viz8 = new tableau.Viz(vizContainer8, url8, options);
 }
 
 // run the initViz function when the page loads
