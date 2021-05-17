@@ -52,6 +52,7 @@ Overall, there does appear to be a significant decline in COVID-19 deaths once t
 
 ## Key Learnings
 - Try to find data that is already normalized (versus counts) as that is what is ultimately more important, easier to pull insights from and tells a more clear story.
+- Think ahead about what questions are easiest to answer with machine learning.
 
 ## Dashboard
 The GitHub pages for our Dashboard is saved here: https://itsjonlau.github.io/Final-Project/
