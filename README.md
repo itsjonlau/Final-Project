@@ -16,7 +16,8 @@ The overall question we wish to answer is: how does the distribution of the COVI
 Each team member has a more specific question that they will answer, listed below:
 - Do COVID-19 deaths slow at a different rate for minorities?
 - Do COVID-19 deaths slow at a different rate depending on age?
-- Do COVID-19 deaths slow at a different rate depending on gender?
+- How have different genders been impacted by COVID-19?
+- How did politics impact COVID-19 data?
 - Based on vaccination and infection rates, can you accurately predict if a state voted for Trump or for Biden?
 
 ## Data Exploration and Analysis
@@ -35,7 +36,6 @@ Throughout the project, we used a variety of technologies, languages and tools, 
 - Pandas 
 - Jupyter Notebook
 
-
 ## Machine Learning
 For our first machine learning model, which we created to determine vaccine allocations, we chose data that was publicly available and showed COVID-19 death by week and by sex, age and state. There were no missing values from the data, though there were some cases where the data was a 0, which we left in as it represented 0 deaths that week. We created dummy variables for gender, state and age range to ensure that there was a numeric variable for these that the model would understand.
 
@@ -48,7 +48,9 @@ For the second machine learning model, we designed a tool to predict the 2020 el
 -We used supervised machine learning to classify the states as either 1 or 0, Democrat or Republican.  With classification in mind, it was decided to first try a simple logistc regression model.  The precision and recall of that model was .66 and .62 respectively, which was not up to par.  Instead we then tried a decision tree model, which then improved the precision and recall to .71 and .71.  Obviously still not ideal, but considering that we only had 50 different rows to use, it speaks to the quality of data we had as well as the discrepancies in covid policies in these democrat and republican states that we are still able to get an accuracy of 69%.  
 
 ## Result
-Overall, there does appear to be a significant decline in COVID-19 deaths once the vaccine is introduced. This decline is present in general, as well as within all races and all age groups.
+- Following the introduction of the vaccine, COVID-19 deaths started to decline. From this, we can conclude that introduction of the vaccine has had a positive impact on COVID-19 deaths.
+- Republican states are performing much worse in all major COVID-19 related stats.  These include: willingness to wear a mask in public, % of population who have died from COVID-19, and vaccine supply usage.
+- However, though Republican states have higher % of those who are anti-vax, they have a similar vaccination rate to Democratic states.
 
 ## Key Learnings
 - Try to find data that is already normalized (versus counts) as that is what is ultimately more important, easier to pull insights from and tells a more clear story.
