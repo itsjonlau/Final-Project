@@ -12,11 +12,11 @@ let viz8;
 //Add Share Link to Tableau Public in here
 const url = "https://public.tableau.com/views/DashboardImages/TotalDeathsandVaccinations?:language=en&:display_count=y&:origin=viz_share_link";
 const url2 = "https://public.tableau.com/views/DashboardImages/NormalizedDeathbyRace?:language=en&:display_count=y&:origin=viz_share_link";
-const url3 = "https://public.tableau.com/views/DeathRateByAgeGroup/Dashboard2?:language=en&:display_count=y&:origin=viz_share_link";
-const url4 = "https://public.tableau.com/views/CovidDeathCountbyStates/CovidDeathRatebyStates?:language=en&:display_count=y&:origin=viz_share_link";
+const url3 = "https://public.tableau.com/views/DeathRateByAgeGroup/Dashboard3?:language=en&:display_count=y&publish=yes&:origin=viz_share_link";
+const url4 = "https://public.tableau.com/views/DeathCountByAgeGroup/Dashboard2?:language=en&:display_count=y&publish=yes&:origin=viz_share_link";
 const url5 = "https://public.tableau.com/views/CovidDeathCountbyGender/DeathCountbyGender?:language=en&:display_count=y&:origin=viz_share_link";
 const url6 = "https://public.tableau.com/views/covidpolitics/Dashboard1?:language=en&:display_count=y&:origin=viz_share_link";
-const url7 = "https://public.tableau.com/views/covidpolitics/Dashboard2?:language=en&:display_count=y&:origin=viz_share_link";
+const url7 = "https://public.tableau.com/views/covidpolitics/Dashboard2?:language=en&:display_count=y&:origin=viz_share_linkk";
 const url8 = "https://public.tableau.com/views/covidpolitics/ofPopulationWhoDiedofCovid?:language=en&:display_count=y&:origin=viz_share_link";
 
 const vizContainer = document.getElementById('vizContainer');
